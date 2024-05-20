@@ -17,6 +17,7 @@ public class Subscribe(ILogger<Subscribe> logger, DataContext context)
 	[Function("Subscribe")]
     public async Task<IActionResult> Run([HttpTrigger(AuthorizationLevel.Function, "post")] HttpRequest req)
     {
+
 		try
 		{
 			var body = await new StreamReader(req.Body).ReadToEndAsync();
