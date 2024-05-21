@@ -1,0 +1,12 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated"
+  },
+
+  "ConnectionStrings": {
+    "SqlServer": "Server=tcp:sqlserver-siliconas.database.windows.net,1433;Initial Catalog=BlazorWebApp;Persist Security Info=False;User ID=SqlAdmin;Password=changeme$1234;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+  }
+ }
+
